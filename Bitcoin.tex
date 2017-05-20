@@ -1,0 +1,281 @@
+\documentclass[handout]{beamer}
+%%%%\documentclass[10pt]{beamer}
+\usetheme[
+%%% option passed to the outer theme
+%    progressstyle=fixedCircCnt,   % fixedCircCnt, movingCircCnt (moving is deault)
+  ]{Feather}
+  
+% If you want to change the colors of the various elements in the theme, edit and uncomment the following lines
+
+% Change the bar colors:
+%\setbeamercolor{Feather}{fg=red!20,bg=red}
+
+% Change the color of the structural elements:
+%\setbeamercolor{structure}{fg=red}
+
+% Change the frame title text color:
+%\setbeamercolor{frametitle}{fg=blue}
+
+% Change the normal text color background:
+%\setbeamercolor{normal text}{fg=black,bg=gray!10}
+
+%-------------------------------------------------------
+% INCLUDE PACKAGES
+%-------------------------------------------------------
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+
+%-------------------------------------------------------
+% DEFFINING AND REDEFINING COMMANDS
+%-------------------------------------------------------
+
+% colored hyperlinks
+\newcommand{\chref}[2]{
+  \href{#1}{{\usebeamercolor[bg]{Feather}#2}}
+}
+
+%-------------------------------------------------------
+% INFORMATION IN THE TITLE PAGE
+%-------------------------------------------------------
+
+\title[] % [] is optional - is placed on the bottom of the sidebar on every slide
+{ % is placed on the title page
+      \textbf{Introduction to Bitcoin}
+}
+
+\subtitle[Introduction to Bitcoin]
+{
+      \textbf{}
+}
+
+\author[Irfan]
+{      Irfan Naseef \\
+      {\ttfamily naseefi@indianoil.in}
+}
+
+\institute[]
+{
+      Communications Dept, COIS Gurgaon\\
+      Indian Oil Corporation Ltd\\
+  
+  %there must be an empty line above this line - otherwise some unwanted space is added between the university and the country (I do not know why;( )
+}
+
+\date{\today}
+
+%-------------------------------------------------------
+% THE BODY OF THE PRESENTATION
+%-------------------------------------------------------
+
+\begin{document}
+
+%-------------------------------------------------------
+% THE TITLEPAGE
+%-------------------------------------------------------
+
+{\1% % this is the name of the PDF file for the background
+\begin{frame}[plain,noframenumbering] % the plain option removes the header from the title page, noframenumbering removes the numbering of this frame only
+  \titlepage % call the title page information from above
+\end{frame}}
+
+
+\begin{frame}{Content}{}
+\tableofcontents
+\end{frame}
+
+%-------------------------------------------------------
+\section{Introduction}
+
+\subsection{What is Bitcoin ?}
+%-------------------------------------------------------
+\begin{frame}{Introduction}{}
+%-------------------------------------------------------
+
+  \begin{itemize}       
+\item<1-> \textbf{Bitcoin} is a peer to peer payment system  introduced as open-source software in 2009.
+
+\item<2->The transactions in the system are recorded in a public ledger called \textbf{Blockchain}
+
+ \item<3-> Bitcoin system has no central repository and no single administrator. It is a Decentralized virtual currency.
+ 
+ \item<4-> Bitcoin is a Cryptocurrency, ie It is cryptography based digital currency
+    
+  \end{itemize}
+\end{frame}
+
+\subsection{Cryptocurrency}
+
+%-------------------------------------------------------
+\begin{frame}{Cryptocurrency}{}
+%-------------------------------------------------------
+Cryptocurrency is a bearer instrument
+  \begin{itemize}       
+\item Holder has ownership
+
+ \item No Other records kept to identify the owner
+
+ \item Easy to keep anonymous
+ 
+ \item Hard or impossible to replace if lost or stolen
+ 
+ \item is based on Cryptography.
+    
+  \end{itemize}
+\end{frame}
+
+
+
+
+
+%-------------------------------------------------------
+\begin{frame}{Introduction}{How to Obtain Bitcoin}
+%-------------------------------------------------------
+
+  \begin{itemize}       
+\item Bitcoins can be obtained by mining.
+
+ \item Bitcoins can be exchanged for other currenciesm products and services.
+    
+  \end{itemize}
+\end{frame}
+
+
+%-------------------------------------------------------
+\begin{frame}{Mining}{}
+%-------------------------------------------------------
+
+  \begin{itemize}       
+\item<1-> Bitcoins are created as a reward for payment processing work in which users offer their computing power to verify and record payments into a the public ledger. This process is called \textbf{Mining}.
+
+ \item<2-> Individuals or companies can engage in this activity in exchange for transaction fees and newly created bitcoins.
+
+ \item<3-> Besides mining,  bitcoins can be obtained in exchange for flat money, products and services.
+
+ \item<4-> Users can send and receive bitcoins electronically for an optional transaction fee using wallet software on a personal computer, mobile device or a web application.
+    
+  \end{itemize}
+\end{frame}
+
+
+\section{Legality status}
+\subsection{Legality in India}
+%-------------------------------------------------------
+\begin{frame}{Legality in India}{}
+%-------------------------------------------------------
+
+  \begin{itemize}       
+\item Bitcoin is \textbf{LEGAL} in India.
+
+ \item Response from RBI - \textit{"As of now we are watching and learning about the developments in Bitcoins but are not regulating it"}
+
+ \item Caution notice by RBI - \textit{"Any user, holder, investor or trader dealing with virtual currencies is doing it at their own risk"}
+ 
+ \item Despite the Reserve Bank's call for caution to people against the use of virtual currencies, domestic Bitcoin exchanges reports that they are adding over 2,500 users a day and has reached total five lakh downloads.
+
+    
+  \end{itemize}
+\end{frame}
+
+
+\subsection{Worldwide status}
+
+\begin{frame}{History}{World wide status}
+%-------------------------------------------------------
+
+  \begin{itemize} 
+
+  \item Bitcoin was first mentioned in a 2008 research paper published under the name \textit{Satoshi Nakamoto}. 
+
+ \item  Some mainstream websites began accepting bitcoins 2013. \textit{WordPress} started in November 2012 followed by OKCupid in April 2013, Atomic Mall in November 2013, TigerDirect in January 2014, and Overstock.com that same month. 
+
+ \item  In October 2013, Chinese internet giant \textit{Baidu} had allowed clients of website security services to pay with bitcoins. During November 2013, the China-based bitcoin exchange BTC China overtook the Japan-based Mt. Gox and the Europe-based Bitstamp to become the largest bitcoin trading exchange by trade volume. 
+ 
+\item The first bitcoin ATM was installed in October 2013 in Vancouver, British Columbia, Canada.
+  
+  \end{itemize}
+\end{frame}
+
+
+%-------------------------------------------------------
+\begin{frame}{World wide status}{}
+%-------------------------------------------------------
+
+  \begin{itemize}   
+  \item As of February 2015, over 100,000 merchants and vendors accept bitcoin as payment.
+  
+  \item According to a research produced by Cambridge University in 2017, there are 2.9 to 5.8 million unique users actively using a cryptocurrency wallet, most of them using bitcoin.
+  
+  \item  Over 80\% of bitcoins are traded on a Tokyo-based digital currency exchange called Mt. Gox
+  
+     
+  \end{itemize}
+\end{frame}
+
+
+%-------------------------------------------------------
+\section{Ledger and Transactions}
+%-------------------------------------------------------
+
+\begin{frame}{Ledger and Transactions}{Block Chain}
+%-------------------------------------------------------
+
+  \begin{itemize}   
+  \item<1-> The most important part of the bitcoin system is a public ledger that records financial transactions in bitcoins - The Blockchain.
+
+  \item<2-> Recording transactions is accomplished without the intermediation of any single, central authority. 
+
+ \item<3-> Instead, multiple intermediaries exist in the form of computer servers running bitcoin software. By connecting over the Internet, these servers form a network that anyone can join. Transactions of the form "\textbf{\textit{payer X wants to send Y bitcoins to payee Z}}", are broadcast to this network using readily available software applications. Bitcoin servers can validate these transactions, add them to their copy of the ledger, and then broadcast these ledger additions to other servers.
+
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Ledger and Transactions}{Block Chain}
+%-------------------------------------------------------
+
+\begin{block}{}
+The blockchain is a \textbf{distributed database} – to achieve independent verification of the chain of ownership of any and every bitcoin (amount), each network node stores its own copy of the blockchain. Approximately six times per hour, a new group of accepted transactions, a block, is created, added to the blockchain, and quickly published to all nodes. This allows bitcoin software to determine when a particular bitcoin amount has been spent, which is necessary in order to prevent double-spending in an environment without central oversight. Whereas conventional ledger records the transfers of actual bills or promissory notes that exist apart from it, the blockchain is the only place that bitcoins can be said to exist in the form of unspent outputs of transactions.
+
+\end{block}
+\end{frame}
+
+%-------------------------------------------------------
+\section{Security}
+%-------------------------------------------------------
+\subsection{Security}
+\begin{frame}{Security}{}
+%-------------------------------------------------------
+ 
+There are two main ways the block chain ledger can be corrupted to steal bitcoins: by fraudulently adding to or modifying it. The bitcoin system protects the blockchain against both using a combination of digital signatures and cryptographic hashes. 
+
+\end{frame}
+
+%-------------------------------------------------------
+\begin{frame}{Security}{}
+%-------------------------------------------------------
+
+  \begin{block}{The Addition Attack and Digital Signatures: }
+ 
+ Payers and payees are identified in the blockchain by their public cryptographic keys: most bitcoin transfers are from one public key to a different public key. 
+\end{block}
+
+ \begin{block}{The Modification Attack And Mining:}
+ 
+ The other principal way to steal bitcoins would be to modify blockchain ledger entries. Eve could buy something from Alice, like a sofa, by adding a signed entry to the blockchain ledger equivalent to \textit{Eve pays Alice 100 bitcoins}. Later, after receiving the sofa, Eve could modify that blockchain ledger entry to read instead:\textit{ Eve pays Alice 1 bitcoin}, or even delete the entry. Digital signatures cannot prevent this attack. Eve can simply sign her entry again after modifying it. Bitcoin uses various timestamping schemes to avoid the need for a trusted third party to timestamp transactions added to the blockchain ledger.
+ 
+ \end{block}
+ 
+\end{frame}
+
+%-------------------------------------------------------
+%-------------------------------------------------------
+
+{\1
+\begin{frame}[plain,noframenumbering]
+  \finalpage{Thank you!}
+\end{frame}}
+
+\end{document}

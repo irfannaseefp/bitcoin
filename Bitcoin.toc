@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{What is Bitcoin ?}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Cryptocurrency}{4}{0}{1}
+\beamer@sectionintoc {2}{Legality status}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Legality in India}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Worldwide status}{8}{0}{2}
+\beamer@sectionintoc {3}{Ledger and Transactions}{10}{0}{3}
+\beamer@sectionintoc {4}{Security}{12}{0}{4}
+\beamer@subsectionintoc {4}{1}{Security}{12}{0}{4}
